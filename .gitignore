@@ -1,2 +1,12 @@
 *__pycahce__*
 *.pyc
+# Ignore weight files
+models/playershirt.pt
+models/yolo11m.pt
+*.pt
+
+# Ignore large media and caches
+input_videos/
+output_videos/
+output_frames/
+.git/lfs/
